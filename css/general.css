@@ -1,0 +1,26 @@
+h1, p, form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#display {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+div {
+    margin: 1rem;
+    padding: 1rem;
+    background-color: lightblue;
+}
+
+#quote {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WeatherTunes</title>
+    <link rel="stylesheet" href="css/general.css">
+</head>
+
+<body>
+
+    <h1>
+        Cloudy with a Chance of Wisdom!
+    </h1>
+    <p>
+        Tell me your location (CITY, STATE) and I will show you the current weather, as well as a quote that matches it.
+    </p>
+
+    <form class="d-flex" role="search" id="top-search">
+        <input class="form-control me-2" width="400" type="search" placeholder="CITY, STATE" aria-label="Search"
+            name="query">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+
+    <span id="display">
+        <div id="precip"></div>
+        <div id="temp"></div>
+        <div id="cloud"></div>
+        <div id="snow"></div>
+        <div id="uv"></div>
+    </span>
+
+    <div id="quote">
+
+    </div>
+
+    <button id="new-quote" type="button">New Quote</button>
+
+
+    <script src="scripts/index.js"></script>
+</body>
+
+</html>
