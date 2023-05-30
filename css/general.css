@@ -12,6 +12,10 @@ h1, p, form {
     align-items: center;
 }
 
+#display div {
+    width: 15rem;
+}
+
 div {
     margin: 1rem;
     padding: 1rem;
